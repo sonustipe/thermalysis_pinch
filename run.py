@@ -1,5 +1,5 @@
-from pinch.app import init_app
-from pinch.config.main import PROJECT_NAME, PROJECT_SLUG
+from thermalysis_pinch.app import init_app
+from thermalysis_pinch.config.main import PROJECT_NAME, PROJECT_SLUG
 from flask import Flask
 
 if __name__ == "__main__":
@@ -11,5 +11,7 @@ if __name__ == "__main__":
     )
 
     dash_app.run(
-        debug=True, port=5500, host="10.29.1.180", 
+        debug=True,
+        port=5500,
+        host="10.29.1.180",
     )

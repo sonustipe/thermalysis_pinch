@@ -2,8 +2,8 @@ import dash
 from dash import dcc, html
 
 from agility.components import Sidebar
-from pinch.config.main import CONFIG_SIDEBAR, STORE_ID
-from pinch.project import Project
+from thermalysis_pinch.config.main import CONFIG_SIDEBAR, STORE_ID
+from thermalysis_pinch.project import Project
 
 external_scripts = [
     # Tailwind CSS from JS src file

@@ -24,7 +24,7 @@ from agility.components import (
     ContainerCustom,
 )
 
-from pinch.config.main import STORE_ID
+from thermalysis_pinch.config.main import STORE_ID
 from pinch.project import page2
 from pinch.schemas.page2 import Page2Input, generate_table_record
 
@@ -79,9 +79,9 @@ def run_pinch_analysis(n_clicks):
     if n_clicks and os.path.exists(csv_file_path):
         try:
             # Run the PyPinch analysis
-         #   options = {"draw"}
-          #  pinch = PyPinch(csv_file_path, options)
-           # pinch.solve(options)  # Ensure that this runs without error
+            #   options = {"draw"}
+            #  pinch = PyPinch(csv_file_path, options)
+            # pinch.solve(options)  # Ensure that this runs without error
 
             # Define paths for the generated images
             image_files = [

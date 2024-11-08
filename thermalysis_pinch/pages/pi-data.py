@@ -7,6 +7,7 @@ from collections import namedtuple
 from typing import Final
 import math
 from PyPinch import PyPinch
+
 # Assumed imports of custom components
 from agility.components import (
     ButtonCustom,
@@ -14,7 +15,7 @@ from agility.components import (
     MessageCustom,
 )
 
-from pinch.config.main import STORE_ID
+from thermalysis_pinch.config.main import STORE_ID
 
 dash.register_page(__name__)
 app: Dash = dash.get_app()

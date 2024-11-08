@@ -23,7 +23,7 @@ from agility.components import (
     ContainerCustom,
 )
 
-from pinch.config.main import STORE_ID
+from thermalysis_pinch.config.main import STORE_ID
 from pinch.project import page2
 from pinch.schemas.page2 import Page2Input, generate_table_record
 
@@ -84,7 +84,7 @@ def run_pinch_analysis(n_clicks):
 
             # Define paths for the generated images
             image_files = [
-                "ShiftT.png", 
+                "ShiftT.png",
             ]
             images_divs = []
 
@@ -98,7 +98,7 @@ def run_pinch_analysis(n_clicks):
                         images_divs.append(
                             html.Div(
                                 [
-                                    #html.H3(image_file.split(".")[0].replace("_", " ")),
+                                    # html.H3(image_file.split(".")[0].replace("_", " ")),
                                     html.Img(
                                         src=f"data:image/png;base64,{image_base64}",
                                         style={"width": "50%", "height": "auto"},

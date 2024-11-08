@@ -19,7 +19,7 @@ from agility.components import (
     ContainerCustom,
 )
 
-from pinch.config.main import STORE_ID, PROJECT_NAME, PROJECT_SLUG
+from thermalysis_pinch.config.main import STORE_ID, PROJECT_NAME, PROJECT_SLUG
 from pinch.project import page1
 
 

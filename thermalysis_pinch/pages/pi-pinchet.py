@@ -24,7 +24,7 @@ from agility.components import (
     ContainerCustom,
 )
 
-from pinch.config.main import STORE_ID
+from thermalysis_pinch.config.main import STORE_ID
 from pinch.project import page2
 from pinch.schemas.page2 import Page2Input, generate_table_record
 
@@ -111,7 +111,7 @@ def run_csv_pinch_analysis(n_clicks):
 
                     return html.Div(
                         [
-                            #html.H3("CSV Pinch Analysis Complete"),
+                            # html.H3("CSV Pinch Analysis Complete"),
                             html.Pre(
                                 f"Pinch Temperature: {pinch_temp_value} °C"
                             ),  # Display the temperature value

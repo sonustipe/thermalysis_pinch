@@ -23,7 +23,7 @@ from agility.components import (
     ContainerCustom,
 )
 
-from pinch.config.main import STORE_ID
+from thermalysis_pinch.config.main import STORE_ID
 from pinch.project import Project as PRJ
 from pinch.project.report import generate_report
 from pinch.schemas.page2 import Page2Input, generate_table_record
