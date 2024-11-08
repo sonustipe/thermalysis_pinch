@@ -1,0 +1,26 @@
+Unfeasible Heat Cascade: 
+,,Hot Utility: 0 kW
+Interval,Delta H (kW),Exit H (total kW)
+1,-160.0,-160.0
+2,-6.0,-166.0
+3,-24.0,-190.0
+4,8.0,-182.0
+5,270.0,88.0
+6,14.0,102.0
+7,143.0,245.0
+8,32.0,277.0
+,,Cold Utility: 277.0 kW
+""
+Feasible Heat Cascade: 
+,,Hot Utility: 190.0 kW
+Interval,Delta H (kW),Exit H (total kW)
+1,-160.0,30.0
+2,-6.0,24.0
+3,-24.0,0.0
+4,8.0,8.0
+5,270.0,278.0
+6,14.0,292.0
+7,143.0,435.0
+8,32.0,467.0
+,,Cold Utility: 467.0 kW
+,,Pinch Temperature: 67.0 degC

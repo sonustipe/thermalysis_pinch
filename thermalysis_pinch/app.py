@@ -29,7 +29,7 @@ def init_app(
         external_scripts=external_scripts,  # Tailwind CSS from JS src file
         title=app_title,  # Update title if needed or use a variable
     )
-    #    dash_app.config.suppress_callback_exceptions = True
+    dash_app.config.suppress_callback_exceptions = True
 
     sidebar = Sidebar(CONFIG_SIDEBAR, STORE_ID, Project(), dash_app)
 

@@ -39,3 +39,4 @@ urllib3==2.2.1
 Werkzeug==3.0.3
 xlwings==0.31.4
 zipp==3.19.2
+matplotlib

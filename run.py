@@ -10,4 +10,6 @@ if __name__ == "__main__":
         app_title=PROJECT_NAME,
     )
 
-    dash_app.run(debug=True, port=5500, host="127.0.0.1")
+    dash_app.run(
+        debug=True, port=5500, host="10.29.1.180", 
+    )
